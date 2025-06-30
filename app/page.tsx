@@ -99,10 +99,22 @@ export default function HomePage() {
               Find Jobs
             </Link>
             <Link
+              href="/companies"
+              className="hover:text-primary transition-colors duration-200 hover:scale-105 transform"
+            >
+              Companies
+            </Link>
+            <Link
               href="/post-job"
               className="hover:text-primary transition-colors duration-200 hover:scale-105 transform"
             >
               Post Job
+            </Link>
+            <Link
+              href="/pricing"
+              className="hover:text-primary transition-colors duration-200 hover:scale-105 transform"
+            >
+              Pricing
             </Link>
           </nav>
 
