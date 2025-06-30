@@ -27,7 +27,7 @@ export default function PricingPage() {
     },
     {
       name: "Professional",
-      price: "$99",
+      price: "₹7,999",
       period: "/month",
       description: "Ideal for growing companies with regular hiring needs",
       features: [
@@ -46,7 +46,7 @@ export default function PricingPage() {
     },
     {
       name: "Enterprise",
-      price: "$299",
+      price: "₹24,999",
       period: "/month",
       description: "For large organizations with complex hiring requirements",
       features: [
@@ -211,7 +211,7 @@ export default function PricingPage() {
               <div>
                 <h3 className="font-semibold mb-2">What payment methods do you accept?</h3>
                 <p className="text-muted-foreground text-sm">
-                  We accept all major credit cards, PayPal, and bank transfers for Enterprise plans.
+                  We accept all major credit cards, UPI, Net Banking, and bank transfers for Enterprise plans.
                 </p>
               </div>
             </div>
@@ -246,7 +246,7 @@ export default function PricingPage() {
             Ready to Get Started?
           </h2>
           <p className="text-muted-foreground mb-8">
-            Join thousands of companies already using JobPortal to find great talent.
+            Join thousands of Indian companies already using JobPortal to find great talent.
           </p>
           <div className="flex gap-4 justify-center">
             <Button size="lg" className="hover:scale-105 transition-all duration-200">

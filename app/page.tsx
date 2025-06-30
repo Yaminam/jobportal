@@ -19,10 +19,10 @@ export default function HomePage() {
       {
         id: 1,
         title: "Senior Frontend Developer",
-        company: "TechCorp Inc.",
-        location: "San Francisco, CA",
+        company: "TechCorp India",
+        location: "Bangalore, Karnataka",
         type: "Full-time",
-        salary: "$120k - $150k",
+        salary: "₹15-25 LPA",
         description: "We're looking for an experienced frontend developer to join our team...",
         tags: ["React", "TypeScript", "Next.js"],
         featured: true,
@@ -30,10 +30,10 @@ export default function HomePage() {
       {
         id: 2,
         title: "Product Manager",
-        company: "StartupXYZ",
+        company: "StartupXYZ India",
         location: "Remote",
         type: "Full-time",
-        salary: "$100k - $130k",
+        salary: "₹12-18 LPA",
         description: "Lead product strategy and development for our growing platform...",
         tags: ["Strategy", "Agile", "Analytics"],
         featured: true,
@@ -41,10 +41,10 @@ export default function HomePage() {
       {
         id: 3,
         title: "UX Designer",
-        company: "Design Studio",
-        location: "New York, NY",
+        company: "Design Studio Mumbai",
+        location: "Mumbai, Maharashtra",
         type: "Contract",
-        salary: "$80k - $100k",
+        salary: "₹8-12 LPA",
         description: "Create beautiful and intuitive user experiences...",
         tags: ["Figma", "Research", "Prototyping"],
         featured: true,
@@ -136,10 +136,10 @@ export default function HomePage() {
         <div className="max-w-4xl mx-auto px-4 relative z-10">
           <div className="animate-fade-in-up">
             <h1 className="text-5xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-foreground via-primary to-purple-600 bg-clip-text text-transparent">
-              Find Your Dream Job
+              Find Your Dream Job in India
             </h1>
             <p className="text-xl text-muted-foreground mb-8 animate-fade-in-up" style={{ animationDelay: "0.2s" }}>
-              Connect with top companies and discover opportunities that match your skills
+              Connect with top Indian companies and discover opportunities that match your skills
             </p>
           </div>
 
@@ -192,7 +192,7 @@ export default function HomePage() {
                 </div>
               </div>
               <h3 className="text-3xl font-bold mb-2 bg-gradient-to-r from-primary to-purple-600 bg-clip-text text-transparent">
-                10,000+
+                1,00,000+
               </h3>
               <p className="text-muted-foreground">Active Jobs</p>
             </div>
@@ -203,7 +203,7 @@ export default function HomePage() {
                 </div>
               </div>
               <h3 className="text-3xl font-bold mb-2 bg-gradient-to-r from-green-500 to-emerald-600 bg-clip-text text-transparent">
-                5,000+
+                50,000+
               </h3>
               <p className="text-muted-foreground">Companies</p>
             </div>
@@ -214,7 +214,7 @@ export default function HomePage() {
                 </div>
               </div>
               <h3 className="text-3xl font-bold mb-2 bg-gradient-to-r from-purple-500 to-pink-600 bg-clip-text text-transparent">
-                50,000+
+                5,00,000+
               </h3>
               <p className="text-muted-foreground">Job Seekers</p>
             </div>
@@ -229,7 +229,7 @@ export default function HomePage() {
             <h2 className="text-3xl md:text-4xl font-bold mb-4 bg-gradient-to-r from-foreground to-primary bg-clip-text text-transparent">
               Featured Jobs
             </h2>
-            <p className="text-muted-foreground text-lg">Discover amazing opportunities from top companies</p>
+            <p className="text-muted-foreground text-lg">Discover amazing opportunities from top Indian companies</p>
           </div>
 
           {!isLoaded ? (
@@ -336,7 +336,7 @@ export default function HomePage() {
                   JobPortal
                 </span>
               </div>
-              <p className="text-muted-foreground">Connecting talent with opportunity worldwide.</p>
+              <p className="text-muted-foreground">Connecting talent with opportunity across India.</p>
             </div>
             <div className="stagger-item">
               <h3 className="font-semibold mb-4">For Job Seekers</h3>

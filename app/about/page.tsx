@@ -10,28 +10,28 @@ import { Briefcase, Users, Target, Award, Heart, Globe, Zap, Shield, ArrowRight 
 export default function AboutPage() {
   const team = [
     {
-      name: "Sarah Johnson",
+      name: "Priya Sharma",
       role: "CEO & Founder",
       image: "/placeholder.svg?height=200&width=200",
-      bio: "Former VP of Engineering at TechCorp with 15+ years in the industry.",
+      bio: "Former VP of Engineering at TCS with 15+ years in the Indian tech industry.",
     },
     {
-      name: "Michael Chen",
+      name: "Arjun Patel",
       role: "CTO",
       image: "/placeholder.svg?height=200&width=200",
-      bio: "Full-stack developer and AI enthusiast, previously at Google and Microsoft.",
+      bio: "Full-stack developer and AI enthusiast, previously at Infosys and Wipro.",
     },
     {
-      name: "Emily Rodriguez",
+      name: "Sneha Reddy",
       role: "Head of Product",
       image: "/placeholder.svg?height=200&width=200",
-      bio: "Product strategist with a passion for user experience and growth.",
+      bio: "Product strategist with a passion for user experience and growth in Indian markets.",
     },
     {
-      name: "David Kim",
+      name: "Rahul Kumar",
       role: "Head of Sales",
       image: "/placeholder.svg?height=200&width=200",
-      bio: "Sales leader with expertise in B2B SaaS and enterprise solutions.",
+      bio: "Sales leader with expertise in B2B SaaS and enterprise solutions across India.",
     },
   ]
 
@@ -44,13 +44,13 @@ export default function AboutPage() {
     },
     {
       icon: Globe,
-      title: "Global Impact",
-      description: "Connecting talent worldwide to create opportunities that transcend geographical boundaries.",
+      title: "India-Focused",
+      description: "Connecting talent across India to create opportunities that transcend geographical boundaries.",
     },
     {
       icon: Zap,
       title: "Innovation",
-      description: "Constantly pushing the boundaries of what's possible in recruitment technology.",
+      description: "Constantly pushing the boundaries of what's possible in recruitment technology for India.",
     },
     {
       icon: Shield,
@@ -60,9 +60,9 @@ export default function AboutPage() {
   ]
 
   const stats = [
-    { number: "50,000+", label: "Active Job Seekers" },
-    { number: "5,000+", label: "Partner Companies" },
-    { number: "100,000+", label: "Successful Matches" },
+    { number: "5,00,000+", label: "Active Job Seekers" },
+    { number: "50,000+", label: "Partner Companies" },
+    { number: "10,00,000+", label: "Successful Matches" },
     { number: "95%", label: "Customer Satisfaction" },
   ]
 
@@ -112,8 +112,8 @@ export default function AboutPage() {
               About JobPortal
             </h1>
             <p className="text-xl text-muted-foreground mb-8">
-              We're on a mission to connect the world's talent with the best opportunities, making career growth
-              accessible to everyone, everywhere.
+              We're on a mission to connect India's talent with the best opportunities, making career growth accessible
+              to everyone, everywhere across the country.
             </p>
           </div>
         </div>
@@ -145,22 +145,23 @@ export default function AboutPage() {
           <div className="prose prose-lg max-w-none text-muted-foreground">
             <p className="text-lg leading-relaxed mb-6">
               JobPortal was founded in 2020 with a simple yet powerful vision: to democratize access to career
-              opportunities and help people find work they love. What started as a small team of passionate
-              technologists has grown into a global platform connecting millions of job seekers with thousands of
-              companies worldwide.
+              opportunities across India and help people find work they love. What started as a small team of passionate
+              technologists in Bangalore has grown into a nationwide platform connecting millions of job seekers with
+              thousands of companies across India.
             </p>
 
             <p className="text-lg leading-relaxed mb-6">
-              We recognized that the traditional job search process was broken – it was time-consuming, inefficient, and
-              often favored those with existing networks over those with the best skills. We set out to build something
-              different: a platform that would level the playing field and make great opportunities accessible to
-              everyone.
+              We recognized that the traditional job search process in India was broken – it was time-consuming,
+              inefficient, and often favored those with existing networks over those with the best skills. We set out to
+              build something different: a platform that would level the playing field and make great opportunities
+              accessible to everyone, from tier-1 cities to smaller towns.
             </p>
 
             <p className="text-lg leading-relaxed">
-              Today, JobPortal is proud to be the bridge between ambitious professionals and forward-thinking companies.
-              We've facilitated over 100,000 successful job placements and continue to innovate in the recruitment
-              space, always with our core mission in mind: connecting the right people with the right opportunities.
+              Today, JobPortal is proud to be the bridge between ambitious Indian professionals and forward-thinking
+              companies. We've facilitated over 10 lakh successful job placements and continue to innovate in the
+              recruitment space, always with our core mission in mind: connecting the right people with the right
+              opportunities across India.
             </p>
           </div>
         </div>
@@ -241,8 +242,9 @@ export default function AboutPage() {
             Our Mission
           </h2>
           <p className="text-xl text-muted-foreground mb-8 leading-relaxed">
-            To create a world where everyone has access to meaningful work opportunities, where companies can easily
-            find the talent they need, and where the job search process is transparent, efficient, and fair for all.
+            To create an India where everyone has access to meaningful work opportunities, where companies can easily
+            find the talent they need, and where the job search process is transparent, efficient, and fair for all
+            Indians.
           </p>
           <div className="flex gap-4 justify-center">
             <Button size="lg" asChild className="hover:scale-105 transition-all duration-200">
@@ -280,7 +282,7 @@ export default function AboutPage() {
                   <Award className="h-12 w-12 text-yellow-500" />
                 </div>
                 <h3 className="text-xl font-semibold mb-2">Best HR Tech Startup 2023</h3>
-                <p className="text-muted-foreground">TechCrunch Awards</p>
+                <p className="text-muted-foreground">Economic Times Startup Awards</p>
               </CardContent>
             </Card>
 
@@ -289,8 +291,8 @@ export default function AboutPage() {
                 <div className="flex justify-center mb-4">
                   <Award className="h-12 w-12 text-yellow-500" />
                 </div>
-                <h3 className="text-xl font-semibold mb-2">Top 50 SaaS Companies</h3>
-                <p className="text-muted-foreground">SaaS Magazine 2023</p>
+                <h3 className="text-xl font-semibold mb-2">Top 50 Indian SaaS Companies</h3>
+                <p className="text-muted-foreground">NASSCOM 2023</p>
               </CardContent>
             </Card>
 
@@ -300,7 +302,7 @@ export default function AboutPage() {
                   <Award className="h-12 w-12 text-yellow-500" />
                 </div>
                 <h3 className="text-xl font-semibold mb-2">Innovation in Recruitment</h3>
-                <p className="text-muted-foreground">HR Excellence Awards 2023</p>
+                <p className="text-muted-foreground">India HR Excellence Awards 2023</p>
               </CardContent>
             </Card>
           </div>

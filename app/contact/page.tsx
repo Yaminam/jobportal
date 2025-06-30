@@ -110,7 +110,7 @@ export default function ContactPage() {
                       </div>
                       <div>
                         <h3 className="font-semibold">Email Us</h3>
-                        <p className="text-muted-foreground">support@jobportal.com</p>
+                        <p className="text-muted-foreground">support@jobportal.in</p>
                       </div>
                     </div>
                   </CardContent>
@@ -124,7 +124,7 @@ export default function ContactPage() {
                       </div>
                       <div>
                         <h3 className="font-semibold">Call Us</h3>
-                        <p className="text-muted-foreground">+1 (555) 123-4567</p>
+                        <p className="text-muted-foreground">+91 98765 43210</p>
                       </div>
                     </div>
                   </CardContent>
@@ -139,9 +139,9 @@ export default function ContactPage() {
                       <div>
                         <h3 className="font-semibold">Visit Us</h3>
                         <p className="text-muted-foreground">
-                          123 Business Ave
+                          123 Tech Park, Sector 5
                           <br />
-                          San Francisco, CA 94105
+                          Gurgaon, Haryana 122001
                         </p>
                       </div>
                     </div>
@@ -157,7 +157,7 @@ export default function ContactPage() {
                       <div>
                         <h3 className="font-semibold">Business Hours</h3>
                         <p className="text-muted-foreground">
-                          Mon - Fri: 9AM - 6PM PST
+                          Mon - Fri: 9AM - 6PM IST
                           <br />
                           Sat - Sun: Closed
                         </p>
